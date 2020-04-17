@@ -1,0 +1,277 @@
+body{
+    font-family: "Avenir", sans-serif;
+}
+
+.container{
+    width: 1100px;
+    margin: 0 auto;
+    margin-left: 180px;
+    margin-right: 120px;
+}
+
+#navbar{
+    overflow: hidden;
+    background-color: #88898B;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: block;
+    z-index: 1;
+    font-family: "Bureau Grot", sans-serif;
+    font-size: 20px;
+}
+
+#navbar a{
+    display: inline-block;
+    padding: 20px;
+    color: #FFDD00;
+    text-decoration: none;
+}
+
+#navbar a:hover{
+    background-color:white;
+}
+
+#navbar a:active{
+    background-color: darkgrey;
+}
+
+h2{
+    font-family: "Bureau Grot", sans-serif;
+    font-size: 35px;
+    padding: 15px;
+    padding-left: 0px;
+    padding-bottom: 8px;
+    margin-left: 0px;
+    margin-top: 70px;
+    margin-bottom: 0px;
+    letter-spacing: 2px;
+    color: #88898B;
+}
+
+hr{
+    width: 400px;
+    height: 15px;
+    background-color: #FFDD00;
+    border-width: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+h4{
+    font-family: "Bureau Grot", sans-serif;
+    font-size: 15px;
+    padding: 8px;
+    letter-spacing: 2px;
+    color: #88898B;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin-bottom: 5px;
+}
+
+#subhead{
+    width: 225px;
+    height: 3px;
+    padding-top: 0px;
+    color:;
+    border-width: 0px;
+}
+
+#divider{
+    width: 900px;
+    height: 1px;
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.about{
+    margin-bottom: 150px;
+}
+
+.about img{
+    float: left;
+    padding-right: 30px;
+    margin-right: 15px;
+}
+
+.about p{
+    margin-bottom: 50px;
+}
+
+#home{
+    margin-top: 75px;
+}
+
+.services p{
+    width: 600px;
+}
+
+.services img {
+    float: right;
+    margin: 25px;
+    transform: translateY(-200px);
+}
+
+
+
+
+*/Donate Page coding
+
+#donate{
+    margin-top: 100px;
+    
+}
+
+.donate{
+    width: 550px;
+}
+
+h6{
+    font-size: 15px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+
+.donation-type{
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.form-inline label {
+    margin-right: 100px;
+}
+
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+
+.single-line{
+    margin-top: 30px;
+}
+
+#onetime{
+    font-size: 20px;
+}
+
+#monthly{
+    font-size: 20px;
+}
+
+#amount{
+    font-size: 20px;
+}
+
+.info{
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+#fname{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+#lname{
+    font-size: 20px;
+}
+
+
+.last{
+    float: right;
+    transform: translateY(-300px);
+    transform:translateX(-650px);
+}
+
+#street{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#postdistrict{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#postcode{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#country{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.phonenumber{
+    float: right;
+    transform: translateY(-300px);
+    transform:translateX(-650px);
+}
+#email{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#phone{
+    font-size: 20px;
+}
+
+.cards{
+    margin-left: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#nameoncard{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#cardnumber{
+    font-size: 20px;
+}
+
+#cvv{
+    font-size: 20px;
+}
+
+.cvv{
+    float: right;
+    transform: translateY(-300px);
+    transform:translateX(-650px);
+}
+
+#xmonth{
+    font-size: 20px;
+}
+
+#xyear{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.year{
+    float: right;
+    transform: translateY(-300px);
+    transform:translateX(-650px);
+}
+
+::placeholder{
+    color: red;
+}
+
